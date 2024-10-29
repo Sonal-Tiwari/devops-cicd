@@ -68,7 +68,7 @@ function PopupForm({ closePopup }) {
                 className="block text-white text-sm font-bold mb-2"
                 htmlFor="filesize"
               >
-                File Size 
+                Photo Size 
               </label>
               <input
                 id="filesize"
@@ -85,7 +85,7 @@ function PopupForm({ closePopup }) {
                 className="block text-white text-sm font-bold mb-2"
                 htmlFor="tagTitle"
               >
-                Tag to the file 
+                Tag people in file 
               </label>
               <input
                 id="tagTitle"
@@ -102,7 +102,7 @@ function PopupForm({ closePopup }) {
                 className="block text-white text-sm font-bold mb-2"
                 htmlFor="tagColor"
               >
-                Tag Color
+                Tag Emotions
               </label>
               <select
                 id="tagColor"
@@ -112,16 +112,16 @@ function PopupForm({ closePopup }) {
                 value={tagColor}
               >
                 <option value="green" className="text-slate-200 bg-zinc-800">
-                  Green
+                  Happy
                 </option>
                 <option value="red" className="text-slate-200 bg-zinc-800">
-                  Red
+                  Sad
                 </option>
                 <option value="blue" className="text-slate-200 bg-zinc-800">
-                  Blue
+                  Emotional
                 </option>
                 <option value="yellow" className="text-slate-200 bg-zinc-800">
-                  Yellow
+                  Excited 
                 </option>
               </select>
             </div>
